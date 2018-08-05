@@ -1,0 +1,34 @@
+{
+  "name": "supermariojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d",
+    "serve": "webpack-dev-server --open",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanderSangen88/SuperMarioJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanderSangen88/SuperMarioJS/issues"
+  },
+  "homepage": "https://github.com/vanderSangen88/SuperMarioJS#readme",
+  "dependencies": {
+    "npm": "^6.2.0",
+    "serve": "^9.4.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
